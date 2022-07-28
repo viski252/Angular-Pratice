@@ -7,8 +7,6 @@ import { Task } from 'src/app/Task';
   styleUrls: ['./task-item.component.scss']
 })
 export class TaskItemComponent implements OnInit {
-
-
   @Input() task!: Task;
 
   constructor() { }
